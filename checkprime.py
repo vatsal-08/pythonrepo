@@ -1,10 +1,10 @@
 from math import sqrt as sq
 def check(n):
-    if n==2 or n==3 or n==4:
+    if n==2 or n==3 or n==5:
         return True
     if n%2==0:
         return False
-    for i in  range(2,int(sq(n)+1),2):
+    for i in  range(3,int(sq(n)+1),2):
         if n%i==0:
             return False
     
